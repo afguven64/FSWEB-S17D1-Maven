@@ -5,8 +5,8 @@ public class Animal {
     private  String name;
 
     public Animal(Integer id, String name) {
-        this.setId(id);
-        this.setName(name);
+        this.id = id;
+        this.name = name;
     }
 
     public String getName() {
